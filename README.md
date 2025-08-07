@@ -34,6 +34,10 @@ Choose a two-layered PCB with size 3.56mm x 11.68mm.
 
 ## Usage
 
+Find instructions in the firmware repository.
+
+<img width="1236" height="548" alt="image" src="https://github.com/user-attachments/assets/740ee711-b4c0-4feb-8932-36c4a471b9b5" />
+
 ## Acknowledgements
 
 This SnapperGPS daughter-board was developed by
