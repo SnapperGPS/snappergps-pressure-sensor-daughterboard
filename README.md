@@ -18,6 +18,8 @@ Pressure sensor daughter-board for SnapperGPS receiver.
 
 ## Manufacturing
 
+Choose a two-layered PCB with size 3.56mm x 11.68mm.
+
 ## Components
 
 ## Assembly
