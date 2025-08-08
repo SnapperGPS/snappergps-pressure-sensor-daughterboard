@@ -16,11 +16,29 @@ Pressure sensor daughter-board for SnapperGPS receiver.
 
 ## Files
 
+* `gerber`: Gerber files and drill file for manufacturing the daughter-board.
+* `bom.csv`: Bill of materials of the daughter-board components.
+* `pcb.json`: PCB layout file of the daughter-board. Created with EasyEDA.
+* `pick-and-place.csv`: Centroid / pick-and-palce file for assembly.
+* `schematic.json`: Schematic file of the daughter-board. Created with EasyEDA.
+* `schematic.pdf`: Schematic as PDF.
+
 ## Manufacturing
 
-Choose a two-layered PCB with size 3.56mm x 11.68mm.
+* Get some PCBs manufactured by a PCB manufacturer of your choice.
+(I used [JLCPCB](https://jlcpcb.com), [Aisler](https://aisler.net/) or [PCBWay](https://www.pcbway.com/) in the past.)
+For this, upload the `gerber` folder to the manufacturer's website.
+Choose a two-layered PCB with size 3.56 mm x 11.68 mm.
+
+* If you want, you can also let the manufacturer assemble the board(s) for you.
 
 ## Components
+
+| designator   | quantity | description      | footprint | manufacturer part     | manufacturer     | supplier | supplier part | price   |
+|--------------|---------:|------------------|-----------|-----------------------|------------------|----------|---------------|--------:|
+| C30          | 1        | 100 nF capacitor | 0402      | CL05B104KO5NNNC       | SAMSUNG          | LCSC     | C1525         | $0.001  |
+| U2           | 1        | pressure sensor  |           | MS583730BA01-50       | TE Connectivity  | LCSC     | C2887941      | $11.391 |
+| R32, R34     | 2        | 10 kΩ resistor   | 0402      | 0402WGF1002TCE        | UNI-ROYAL        | LCSC     | C25744        | $0.001  |
 
 ## Assembly
 
