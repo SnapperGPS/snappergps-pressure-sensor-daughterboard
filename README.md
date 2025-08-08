@@ -40,6 +40,8 @@ Choose a two-layered PCB with size 3.56 mm x 11.68 mm.
 | U2           | 1        | pressure sensor  |           | MS583730BA01-50       | TE Connectivity  | LCSC     | C2887941      | $11.391 |
 | R32, R34     | 2        | 10 kΩ resistor   | 0402      | 0402WGF1002TCE        | UNI-ROYAL        | LCSC     | C25744        | $0.001  |
 
+Note: Most other SMD capacitors and resistors with the same value and footprint will also work.
+
 ## Assembly
 
 * Solder the two resistors, the capacitor, and the pressure sensor on the daughterboard.
