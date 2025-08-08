@@ -2,7 +2,7 @@
 
 *Author: Jonas Beuchert*
 
-Pressure sensor daughter-board for SnapperGPS receiver.
+Pressure sensor daughter-board for SnapperGPS receiver (v1.0.x or v2.0.x).
 
 ## Table of contents
 
@@ -41,6 +41,15 @@ Choose a two-layered PCB with size 3.56 mm x 11.68 mm.
 | R32, R34     | 2        | 10 kΩ resistor   | 0402      | 0402WGF1002TCE        | UNI-ROYAL        | LCSC     | C25744        | $0.001  |
 
 ## Assembly
+
+* Solder the two resistors, the capacitor, and the pressure sensor on the daughterboard.
+Ensure that the marked corner of the pressure sensor is aligned with the mark on the PCB.
+I recommend solder paste and a hot plate (or hot air gun) for soldering.
+
+* Solder the assembled daughter-board on a SnapperGPS receiver.
+Note that only version v1.0.x and v2.0.x are compatible, **not** v2.1.x or 2.2.x).
+The five pads on the back of the daughter-board should connect to the five pads on the SnapperGPS receiver.
+The daughter-baord shall be orientated such that the pressure sensor sits in the corner of the SnapperGPS receiver.
 
 ## Flashing
 
