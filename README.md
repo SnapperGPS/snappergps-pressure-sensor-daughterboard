@@ -51,6 +51,9 @@ Note that only version v1.0.x and v2.0.x are compatible, **not** v2.1.x or 2.2.x
 The five pads on the back of the daughter-board should connect to the five pads on the SnapperGPS receiver.
 The daughter-baord shall be orientated such that the pressure sensor sits in the corner of the SnapperGPS receiver.
 
+* Package the whole assembly in a water/weather-proof way, which still exposes the gel-filled cavity of the pressure sensor.
+For example, I used silicon potting for this, but you can also use a rigid housing with a 3.07 mm hole combined with an O-ring with inner diameter 1.8 mm and cross-section diameter 0.8 mm.
+
 ## Flashing
 
 * Go to [https://snappergps.info/flash](https://snappergps.info/flash).
