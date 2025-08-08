@@ -26,7 +26,7 @@ Pressure sensor daughter-board for SnapperGPS receiver (v1.0.x or v2.0.x).
 ## Manufacturing
 
 * Get some PCBs manufactured by a PCB manufacturer of your choice.
-(I used [JLCPCB](https://jlcpcb.com), [Aisler](https://aisler.net/) or [PCBWay](https://www.pcbway.com/) in the past.)
+(I used [JLCPCB](https://jlcpcb.com), [Aisler](https://aisler.net/), or [PCBWay](https://www.pcbway.com/) in the past.)
 For this, upload the `gerber` folder to the manufacturer's website.
 Choose a two-layered PCB with size 3.56 mm x 11.68 mm.
 
