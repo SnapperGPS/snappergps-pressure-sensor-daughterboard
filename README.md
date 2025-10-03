@@ -16,10 +16,14 @@ Pressure sensor daughter-board for SnapperGPS receiver (v1.0.x or v2.0.x).
 
 ## Files
 
+*Note:* There are two releases of the daughter-board, v1.0 and v2.0.
+While v1.0 is tested, it has a bug that prevents it from being soldered directly onto a SnapperGPS receiver without use of additional wires.
+In contrast, v2.0 fixes this bug, but has not been tested yet.
+
 * `gerber`: Gerber files and drill file for manufacturing the daughter-board.
 * `bom.csv`: Bill of materials of the daughter-board components.
 * `pcb.json`: PCB layout file of the daughter-board. Created with EasyEDA.
-* `pick-and-place.csv`: Centroid / pick-and-palce file for assembly.
+* `pick-and-place.csv`: Centroid / pick-and-place file for assembly.
 * `schematic.json`: Schematic file of the daughter-board. Created with EasyEDA.
 * `schematic.pdf`: Schematic as PDF.
 
@@ -40,7 +44,9 @@ Choose a two-layered PCB with size 3.56 mm x 11.68 mm.
 | U2           | 1        | pressure sensor  |           | MS583730BA01-50       | TE Connectivity  | LCSC     | C2887941      | $11.391 |
 | R32, R34     | 2        | 10 kΩ resistor   | 0402      | 0402WGF1002TCE        | UNI-ROYAL        | LCSC     | C25744        | $0.001  |
 
-Note: Most other SMD capacitors and resistors with the same value and footprint will also work.
+*Note:* Most other SMD capacitors and resistors with the same value and footprint will also work.
+
+*Note:* Instead of a pressure sensor from the [MS5837-30BA series](https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7FMS5837-30BA%7FB1%7Fpdf%7FEnglish%7FENG_DS_MS5837-30BA_B1.pdf%7FCAT-BLPS0017) pressure sensor, you can also use a pressure sensor from the [MS5837-02BA series](https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7FDS_MS5837-02BA01%7F10%7Fpdf%7FEnglish%7FENG_DS_DS_MS5837-02BA01_10.pdf%7F20000983-00). The MS5837-30BA series measures pressures up to 30 bar (~300 m depth), while the MS5837-02BA series is limited to 2 bar (10 m). However, it may be more suitable for measurements in air or shallow water, but you would need to adjust the firmware yourself.
 
 ## Assembly
 
