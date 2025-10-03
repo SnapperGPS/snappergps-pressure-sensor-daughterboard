@@ -64,7 +64,7 @@ For example, I used silicon potting for this, but you can also use a rigid housi
 
 ## Flashing
 
-* Go to [https://snappergps.info/flash](https://snappergps.info/flash).
+* Go to [https://snappergps.info/flash](https://snappergps.info/flash) or [https://snappergps.github.io/snappergps-app-lite/flash](https://snappergps.github.io/snappergps-app-lite/flash).
 * Connect the SnapperGPS receiver to your computer via USB.
 * Pair the SnapperGPS receiver.
 * Select the `SnapperGPS-PressureSensor` firmware.
